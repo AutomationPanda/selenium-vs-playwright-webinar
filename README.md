@@ -1,3 +1,5 @@
+![Selenium vs. Playwright: Let the Code Speak](src/test/resources/pic.jpg)
+
 # Selenium vs. Playwright: Let the Code Speak
 
 This repository holds the code from the Applitools webinar,
