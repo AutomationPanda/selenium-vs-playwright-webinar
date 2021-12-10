@@ -1,4 +1,4 @@
-# selenium-vs-playwright-webinar
+# Selenium vs. Playwright: Let the Code Speak
 
 This repository holds the code from the Applitools webinar,
 [Selenium vs. Playwright: Let the Code Speak](https://applitools.com/selenium-vs-playwright-let-the-code-speak/).
