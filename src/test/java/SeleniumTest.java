@@ -26,7 +26,10 @@ public class SeleniumTest {
     @BeforeEach
     public void startWebDriver() {
         ChromeOptions options = new ChromeOptions();
+
+        // Comment the following option in order to watch the browser as tests run:
         options.addArguments("--headless");
+
         driver = new ChromeDriver(options);
     }
 

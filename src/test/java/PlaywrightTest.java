@@ -20,6 +20,8 @@ public class PlaywrightTest {
         playwright = Playwright.create();
         browser = playwright.chromium().launch(
                 new BrowserType.LaunchOptions()
+
+                // Uncomment the following options in order to watch the browser as tests run:
 //                        .setHeadless(false)
 //                        .setSlowMo(1000)
         );
@@ -34,6 +36,8 @@ public class PlaywrightTest {
     @BeforeEach
     public void startPage() {
         context = browser.newContext(
+
+                // Uncomment the following options to record videos for each test:
 //                new Browser.NewContextOptions()
 //                        .setRecordVideoDir(Paths.get("videos/"))
         );
